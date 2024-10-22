@@ -1,0 +1,112 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #121212; 
+    color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.announcement-form-container {
+    background-color: #1e1e1e; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.announcement-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.announcement-input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #282828; 
+    color: #f5f5f5;
+}
+
+.post-button {
+    padding: 10px;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.post-button:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px);
+}
+
+.announcements-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+.announcement-card {
+    background-color: #1e1e1e; 
+    border-radius: 8px;
+    padding: 15px;
+    border: 1px solid #444; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    transition: box-shadow 0.3s;
+}
+
+.announcement-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 119, 255, 0.5); 
+}
+
+.announcement-content {
+    flex-grow: 1;
+}
+
+.delete-button {
+    background: none;
+    border: none;
+    color: #ff4d4d; 
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.delete-button:hover {
+    color: #ff1a1a; 
+}
+
+
+
+.announcement-image {
+    max-width: 100%;
+    height: auto; 
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+.image-input {
+    margin-top: 10px;
+}
+
+.reactions-list {
+    margin-top: 10px; 
+    font-size: 14px; 
+    color: #888; 
+}
+
+
+
+
+
